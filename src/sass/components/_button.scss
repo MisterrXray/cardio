@@ -1,0 +1,36 @@
+.button {
+	padding: 1.5rem 2rem;
+	font-size: 1.125rem;
+	font-weight: 600;
+	line-height: 1.375rem;
+	letter-spacing: 0.05em;
+	color: #FFF;
+	background-color: #25AB75;
+	border-radius: 0.625rem;
+	overflow: hidden;
+	transition: background-color 0.3s ease;
+
+	&:not(.button--dark):hover {
+		background-color: #31ca8d;
+	}
+
+	&--dark {
+		position: relative;
+		background-color: #000;
+
+		&::before {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-color: rgba(255, 255, 255, 0.1);
+			transition: background-color 0.3s ease;
+		}
+
+		&:hover::before {
+			background-color: rgba(255, 255, 255, 0.2);
+		}
+	}
+}
