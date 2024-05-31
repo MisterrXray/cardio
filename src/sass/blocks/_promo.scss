@@ -13,6 +13,12 @@
     min-width: 20.5625rem;
     gap: 1rem;
 
+    &--text {
+      grid-column: 3 span;
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
   }
 
   &__link {
@@ -202,5 +208,4 @@
 
     }
   }
-
 }
