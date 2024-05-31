@@ -1,0 +1,197 @@
+.promo {
+  padding: 6rem 5rem 12rem 6.5rem;
+
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  &__block {
+    display: flex;
+    align-items: center;
+    min-width: 20.5625rem;
+    gap: 1rem;
+
+  }
+
+  &__link {
+    padding: 0.25rem 0.63rem;
+    width: 2.875rem;
+    height: 1.625rem;
+    flex-shrink: 0;
+    border-radius: 12.5rem;
+    background: #25AB75;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.125rem;
+    /* 180% */
+    letter-spacing: 0.09375rem;
+    text-transform: uppercase;
+
+  }
+
+  &__text--link {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.125rem;
+    /* 150% */
+    letter-spacing: 0.03125rem;
+    opacity: 0.8;
+  }
+
+
+
+  &__title {
+    margin-top: 2.9rem;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 9.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 10.625rem;
+    /* 85% */
+    letter-spacing: -0.125rem;
+
+  }
+
+  &__girl {
+    position: absolute;
+    top: 8rem;
+    left: 35rem;
+    width: 33.75rem;
+    height: 55.125rem;
+  }
+
+  &__header {
+    
+    width: 100%;
+    margin: 0 auto;
+    // position: relative;
+  }
+
+
+  &__icons {
+    position: absolute;
+    top: 60%;
+    right: 10%;
+
+  }
+
+  &__item {
+    position: relative;
+ 
+    margin-bottom: 3rem;
+    &::before {
+      position: absolute;
+      content: '';
+      width: 10.375rem;
+      height: 6.125rem;
+      border-radius: 1.25rem;
+      opacity: 0.1;
+      background: #FFF;
+
+    }
+  }
+
+  &__numbers--yellow {
+    padding-top: 1rem;
+    text-align: center;
+    color: #FFE642;
+    font-family: Poppins;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.5rem;
+    letter-spacing: 0.0625rem;
+
+  }
+
+  &__numbers--red {
+    padding-top: 1rem;
+    text-align: center;
+    color: #FB1351;
+    font-family: Poppins;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.5rem;
+    letter-spacing: 0.0625rem;
+  }
+
+  &__descr {
+    margin-left: 2.5rem;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0.8125rem;
+    letter-spacing: 0.0625rem;
+  }
+
+
+  &__footer--content {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: start;
+    gap: 1.88rem;
+
+  }
+
+  &__footer--descr {
+    width: 38rem;
+    grid-column: span 3;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.8125rem;
+    opacity: 0.5;
+    /* 181.25% */
+    letter-spacing: 0.03125rem;
+  }
+
+  .started {
+    padding: 1rem 2.69rem;
+    border-radius: 0.625rem;
+    background: #25AB75;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.375rem;
+    /* 122.222% */
+    letter-spacing: 0.0625rem;
+  }
+
+  .preview {
+    position: relative;
+    padding: 1.5rem 3.81rem;
+
+    &::before {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      content: '';
+      border-radius: 0.625rem;
+      opacity: 0.1;
+      background: #FFF;
+
+    }
+
+
+
+  }
+
+
+
+}

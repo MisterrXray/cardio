@@ -1,0 +1,46 @@
+@import "base/variables";
+@import "base/animation";
+@import "libs/bootstrap-reboot.min";
+@import "libs/slick";
+@import "libs/animate";
+@import "base/media";
+
+
+
+
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.container {
+  width: 100%;
+  max-width: 90rem;
+  /* менять размер зависит от макета */
+  margin: 0 auto;
+  padding: 0 1rem;
+
+}
+
+body {
+  background-color: #000;
+
+}
+
+@import './blocks/header';
+@import './blocks/promo';
+@import './blocks/popular';

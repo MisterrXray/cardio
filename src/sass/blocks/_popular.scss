@@ -1,0 +1,56 @@
+.popular {
+  padding: 12rem 1rem 12rem 1rem;
+
+  &__textblock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__text {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 2.1875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.8125rem;
+    /* 128.571% */
+    letter-spacing: 0.01875rem;
+
+  }
+
+  &__subtext {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0.75rem;
+    /* 100% */
+    letter-spacing: 0.09375rem;
+    opacity: 0.67;
+  }
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 23.3125rem);
+    column-gap: 2.5rem;
+    row-gap: 5rem;
+  }
+ 
+
+
+
+
+
+  .types {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.8125rem;
+    /* 90% */
+    letter-spacing: 0.01875rem;
+  }
+}
