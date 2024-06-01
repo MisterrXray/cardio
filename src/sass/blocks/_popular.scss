@@ -1,4 +1,6 @@
 .popular {
+  margin-top: 10rem;
+  display: grid;
   padding-bottom: 12rem;
 
 
@@ -31,9 +33,9 @@
     letter-spacing: 0.09375rem;
     opacity: 0.67;
   }
+ 
 
   &__wrapper {
-    margin-top: 7rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2.5rem;
@@ -42,10 +44,11 @@
 
   &__item {
     position: relative;
+    width: 100%;
+    height: 100%;
   }
 
   &__img {
-    width: 100%;
     border-radius: 0.625rem;
   }
 
