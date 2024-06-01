@@ -1,5 +1,9 @@
 .promo {
-  padding: 6rem 4rem 5rem 3rem;
+  padding: 6rem 4rem 4rem 3rem;
+  width: 100%;
+
+
+
 
 
   a {
@@ -49,7 +53,7 @@
 
 
   &__title {
-    width: 6em;
+    width: 100%;
     margin-top: 2.9rem;
     color: #FFF;
     font-family: Poppins;
@@ -63,6 +67,7 @@
   }
 
   &__girl {
+    width: 100%;
     position: absolute;
     top: 8rem;
     left: 35rem;
@@ -80,25 +85,31 @@
 
 
   &__icons--block {
+    width: 100%;
     display: grid;
-    justify-content: flex-end;
+    justify-content: right;
     align-items: end;
     grid-template-columns: 0.1fr;
     gap: 1.5rem;
-    width: 100%;
-  
+    
+
+
+
+
 
 
   }
 
   &__item {
+
     padding: 1.25rem 1.88rem 2.35rem 1.88rem;
     border-radius: 1.25rem;
-    background:rgba($color: #1e1a1ac4, $alpha: 5.0);
+    background: rgba($color: #1e1a1ac4, $alpha: 5.0);
 
   }
 
   &__numbers--yellow {
+
     text-align: center;
     color: #FFE642;
     font-family: Poppins;
@@ -122,7 +133,7 @@
   }
 
   &__descr {
-    margin-left:0.5rem;
+    margin-left: 0.5rem;
     color: #FFF;
     font-family: Poppins;
     font-size: 0.8125rem;
