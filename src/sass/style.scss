@@ -3,7 +3,7 @@
 @import "libs/bootstrap-reboot.min";
 @import "libs/slick";
 @import "libs/animate";
-@import "base/media";
+
 
 * {
   margin: 0;
@@ -52,3 +52,5 @@ body {
 @import './blocks/header';
 @import './blocks/promo';
 @import './blocks/popular';
+
+@import "base/media";

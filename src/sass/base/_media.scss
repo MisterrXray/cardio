@@ -1,0 +1,14 @@
+@media (max-width:768px) {
+  .promo {
+    &__title {
+      font-size: 3rem;
+    }
+
+    &__girl {
+      top: 2rem;
+      left: 24rem;
+      width: 100%;
+    }
+  }
+
+}
