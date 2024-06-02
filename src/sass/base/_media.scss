@@ -5,9 +5,13 @@
     }
 
     &__girl {
+      display: none;
       top: 2rem;
       left: 24rem;
       width: 100%;
+    }
+    &__icons--block {
+      display: none;
     }
   }
 
