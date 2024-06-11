@@ -1,22 +1,27 @@
 .program {
   position: relative;
-  padding: 11rem 0rem 7rem 2rem;
   display: flex;
   justify-content: flex-end;
 
+
+
+
   &__block--grey {
-    padding: 8rem 8rem 25rem 20rem;
-    width: 66%;
+    width: 68%;
+    margin-top: 12rem;
+    height: 59rem;
+    padding: 8.12rem 7.5rem 25.19rem 18.06rem;
     background-color: rgba($color: #1b1b1b, $alpha: 1.0);
 
 
   }
 
   &__text--grey {
+    width: 70%;
     margin-left: 5rem;
     color: #FFF;
     font-family: Poppins;
-    font-size: 1.5625rem;
+    font-size: 100%;
     font-style: normal;
     font-weight: 400;
     line-height: 3.125rem;
@@ -25,10 +30,10 @@
   }
 
   &__block--grafity {
-    width: 100%;
+    z-index: 10;
     position: absolute;
     top: 15rem;
-    left: 9rem;
+    left: 7%;
     color: #FFF;
     font-family: Poppins;
     font-size: 7.5rem;
@@ -42,19 +47,20 @@
 
 
   &__link--grey {
-    margin-top: 2rem;
-    width:32%;
+    width: 100%;
+    white-space: nowrap;
+    max-width: 12.5rem;
+    padding: 1.50rem 2.69rem;
     margin-left: 5rem;
-    padding: 1.5rem 2.69rem;
+    margin-top: 3rem;
     border-radius: 0.625rem;
     background: #25AB75;
 
 
+
   }
 
-  a {
-    text-decoration: none;
-    color: white;
+  .link-get {
     color: #FFF;
     font-family: Poppins;
     font-size: 1.125rem;
@@ -63,6 +69,76 @@
     line-height: 1.375rem;
     /* 122.222% */
     letter-spacing: 0.0625rem;
+  }
+
+  &__img {
+    bottom: -15%;
+    display: block;
+    position: absolute;
+    z-index: -10;
+  }
+
+
+}
+
+
+.trainers {
+  position: relative;
+  padding-bottom: 20rem;
+
+
+  &__workout {
+   
+    display: grid;
+    top: -50%;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 0.5fr 30rem;
+    column-gap: 20rem;
+
+  }
+
+  .trainers-black {
+    object-fit: fill;
+    width: 100%;
+    height: 70.9%;
+  }
+
+  .item-man1 {
+    position: absolute;
+    right: 43%;
+    top: 69%;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5625rem;
+    /* 125% */
+    letter-spacing: 0.03125rem;
+
+  }
+
+  &__workout--title-man {
+    margin-left: 0.5rem;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5625rem;
+    /* 125% */
+    letter-spacing: 0.03125rem;
+  }
+  .item {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5625rem;
+    /* 125% */
+    letter-spacing: 0.03125rem;
   }
 
 }

@@ -10,6 +10,10 @@
   padding: 0;
 
 }
+a {
+  text-decoration: none;
+  color: white;
+}
 
 
 
@@ -38,7 +42,7 @@
 
   /* менять размер зависит от макета */
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 0rem;
 
 }
 
@@ -53,5 +57,5 @@ body {
 @import './blocks/promo';
 @import './blocks/popular';
 @import './blocks/program';
-
+@import './blocks/footer';
 @import "base/media";
