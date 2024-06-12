@@ -88,12 +88,10 @@
 
 
   &__workout {
-   
     display: grid;
     top: -50%;
     position: absolute;
-    display: grid;
-    grid-template-columns: 0.5fr 30rem;
+    grid-template-columns: 0.9fr 30rem;
     column-gap: 20rem;
 
   }
